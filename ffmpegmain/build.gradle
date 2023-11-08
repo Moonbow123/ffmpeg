@@ -57,7 +57,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.Moonbow123' //groupId 随便取
                 artifactId = 'ffmpeg'  //artifactId 随便取
-                version = 'v1.0.2'
+                version = 'v1.0.4'
             }
         }
     }
