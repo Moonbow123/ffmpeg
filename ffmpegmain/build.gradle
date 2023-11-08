@@ -51,11 +51,11 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication) {
-                from components.release
+            productionRelease(MavenPublication) {
+                from components.productionRelease
                 groupId = 'com.github.Moonbow123' //groupId 随便取
                 artifactId = 'ffmpeg'  //artifactId 随便取
-                version = 'v1.0.0'
+                version = 'v1.0.2'
             }
         }
     }
